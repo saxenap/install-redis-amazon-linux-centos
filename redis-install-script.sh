@@ -3,7 +3,7 @@
 # Thanks to https://raw.github.com/gist/2776679/b4f5f5ff85bddfa9e07664de4e8ccf0e115e7b83/install-redis.sh
 ###############################################
 # To use: 
-# wget 
+# wget https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-install-script.sh
 # chmod 777 redis-install-script.sh
 # ./redis-install-script.sh
 ###############################################
