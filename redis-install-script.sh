@@ -1,6 +1,7 @@
 #!/bin/bash
 # From here: http://www.codingsteps.com/install-redis-2-6-on-amazon-ec2-linux-ami-or-centos/
 # Thanks to https://raw.github.com/gist/2776679/b4f5f5ff85bddfa9e07664de4e8ccf0e115e7b83/install-redis.sh
+# Uses redis-server init script from https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-server
 ###############################################
 # To use: 
 # wget https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-install-script.sh
@@ -65,6 +66,13 @@ echo "   redis> set foo bar"
 echo "   OK"
 echo "   redis> get foo"
 echo "   bar"
+echo "*****************************************"
+echo " Following changes have been made in redis.config:"
+echo " 1: ... daemonize yes"
+echo " 2: ... bind 127.0.0.1"
+echo " 3: ... dir /var/lib/redis"
+echo " 4: ... loglevel notice"
+echo " 5: ... logfile /var/log/redis.log"
 echo "*****************************************"
 read -p "Press [Enter] to continue..."
 
