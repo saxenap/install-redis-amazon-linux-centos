@@ -1,4 +1,4 @@
 Redis Installation as a Service:
-<code>wget https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-install-script.sh
+<pre>wget https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-install-script.sh
 chmod 777 redis-install-script.sh
-./redis-install-script.sh</code>
+./redis-install-script.sh</pre>
