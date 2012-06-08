@@ -21,7 +21,9 @@ sudo wget http://redis.googlecode.com/files/redis-2.6.0-rc3.tar.gz
 sudo tar xzf redis-2.6.0-rc3.tar.gz
 sudo rm redis-2.6.0-rc3.tar.gz -f
 cd redis-2.6.0-rc3
+cd src
 sudo make
+sudo make install
 echo "*****************************************"
 echo " 3. Create Directories and Copy Redis Files"
 echo "*****************************************"
@@ -41,7 +43,7 @@ sudo sed -e "s/^daemonize no$/daemonize yes/" -e "s/^# bind 127.0.0.1$/bind 127.
 echo "*****************************************"
 echo " 5. Download init Script"
 echo "*****************************************"
-wget https://github.com/saxenap/install-redis-amazon-linux-centos/master/redis-server
+wget https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-server
 echo "*****************************************"
 echo " 6. Move and Configure Redis-Server"
 echo "*****************************************"
