@@ -11,7 +11,6 @@
 echo "*****************************************"
 echo " 1. Prerequisites: Install updates, set time zones, install GCC and make"
 echo "*****************************************"
-sudo su
 sudo yum -y update
 sudo ln -sf /usr/share/zoneinfo/America/Indianapolis /etc/localtime
 sudo yum -y install gcc gcc-c++ make 
