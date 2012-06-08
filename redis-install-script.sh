@@ -16,12 +16,10 @@ sudo yum -y install gcc gcc-c++ make
 echo "*****************************************"
 echo " 2. Download, Untar and Make Redis 2.6"
 echo "*****************************************"
-cd /usr/local/src
 sudo wget http://redis.googlecode.com/files/redis-2.6.0-rc3.tar.gz
 sudo tar xzf redis-2.6.0-rc3.tar.gz
 sudo rm redis-2.6.0-rc3.tar.gz -f
 cd redis-2.6.0-rc3
-cd src
 sudo make
 sudo make install
 echo "*****************************************"
@@ -29,6 +27,7 @@ echo " 3. Create Directories and Copy Redis Files"
 echo "*****************************************"
 sudo mkdir /etc/redis /var/lib/redis
 sudo cp src/redis-server src/redis-cli /usr/local/bin
+sudo cp redis.conf /etc/redis
 echo "*****************************************"
 echo " 4. Configure Redis.Conf"
 echo "*****************************************"
