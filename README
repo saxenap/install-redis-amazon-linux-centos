@@ -1,4 +1,4 @@
-For Redis Installation as a Service on Amazon Linux and CentOS (from http://www.codingsteps.com/install-redis-2-6-on-amazon-ec2-linux-ami-or-centos/):
+For Redis Installation as a Service on Amazon Linux and CentOS:
 
 1. wget https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-install-script.sh
 2. chmod 777 redis-install-script.sh
@@ -7,3 +7,8 @@ For Redis Installation as a Service on Amazon Linux and CentOS (from http://www.
 For Redis Server init Script:
 
 1. wget https://raw.github.com/saxenap/install-redis-amazon-linux-centos/master/redis-server
+
+References:
+http://www.codingsteps.com/install-redis-2-6-on-amazon-ec2-linux-ami-or-centos/
+https://raw.github.com/gist/257849/9f1e627e0b7dbe68882fa2b7bdb1b2b263522004/redis-server
+https://raw.github.com/gist/2776679/c131c0548e7cd2ece85edfb8bea70575586147c7/install-redis.sh
