@@ -10,9 +10,9 @@
 echo "*****************************************"
 echo " 1. Prerequisites: Install updates, set time zones, install GCC and make"
 echo "*****************************************"
-#sudo yum -y update
-#sudo ln -sf /usr/share/zoneinfo/America/Indianapolis \ /etc/localtime
-#sudo yum -y install gcc gcc-c++ make 
+sudo yum -y update
+sudo ln -sf /usr/share/zoneinfo/America/Indianapolis /etc/localtime
+sudo yum -y install gcc gcc-c++ make 
 echo "*****************************************"
 echo " 2. Download, Untar and Make Redis 2.6"
 echo "*****************************************"
