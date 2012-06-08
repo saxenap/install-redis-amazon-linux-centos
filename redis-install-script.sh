@@ -41,7 +41,7 @@ sudo sed -e "s/^daemonize no$/daemonize yes/" -e "s/^# bind 127.0.0.1$/bind 127.
 echo "*****************************************"
 echo " 5. Download init Script"
 echo "*****************************************"
-wget https://raw.github.com/gist/2777433/e64b4b8ad7d38676f7e7f70b24f3f004b4f10b74/redis-server
+wget https://github.com/saxenap/install-redis-amazon-linux-centos/master/redis-server
 echo "*****************************************"
 echo " 6. Move and Configure Redis-Server"
 echo "*****************************************"
