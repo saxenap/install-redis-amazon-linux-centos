@@ -1,3 +1,9 @@
+# Install Redis in Amazon Linux
+
+> ** Archived Repository**
+> > This repository was created over 13 years ago, originally intended to assist folks new to cloud computing and Infrastructure as Code (before it even had that name!). It is now archived and no longer maintained.
+
+
 For Redis 2.6 Installation as a Service on Amazon Linux and CentOS:
 Note: Please make sure you have superuser privileges
 
